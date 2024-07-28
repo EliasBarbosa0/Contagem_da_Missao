@@ -43,6 +43,7 @@ Para informações adicionais, as documentações das APIs utilizadas podem ser 
 
 - [Microsoft Entra](https://learn.microsoft.com/pt-br/graph/identity-network-access-overview)
 - [REST API Power BI](https://learn.microsoft.com/pt-br/rest/api/power-bi/)
+- [Selenium](https://www.selenium.dev/documentation/)
 - [Tweepy](https://docs.tweepy.org/en/stable/)
 - [Twitter API](https://developer.x.com/en/docs/twitter-api)
 
