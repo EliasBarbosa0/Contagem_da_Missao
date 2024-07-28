@@ -39,7 +39,7 @@ O primeiro passo é configurar as variáveis de ambiente, que são as credenciai
 
 ### Documentações Adicionais
 
-Para informações adicionais, as documentações das APIs utilizadas podem ser acessadas nos links abaixo:
+Para informações adicionais, as documentações das APIs e Bibliotecas utilizadas podem ser acessadas nos links abaixo:
 
 - [Microsoft Entra](https://learn.microsoft.com/pt-br/graph/identity-network-access-overview)
 - [REST API Power BI](https://learn.microsoft.com/pt-br/rest/api/power-bi/)
