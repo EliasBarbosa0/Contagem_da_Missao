@@ -1,4 +1,4 @@
-# Contagem da MISSAO
+# Acompanhamento das Validações no TSE da MISSAO
 
 O objetivo deste projeto é criar um relatório para acompanhar as validações no TSE dos apoiamentos coletados pelo partido em formação **MISSAO**. Além disso, foi desenvolvido um comparativo dos apoiamentos validados de todos os partidos em processo de formação. No momento da escrita deste **README**, havia 17 partidos em formação. A solução adotada importa dados de todos os partidos existentes no site oficial do TSE, portanto, o número exato pode variar (novos postulantes ou exclusão de existentes por perderem o prazo).
 
