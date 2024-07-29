@@ -49,7 +49,7 @@ Para informações adicionais, as documentações das APIs e Bibliotecas utiliza
 
 ### Observações Adicionais
 
-O diretório sincronizado com o SharePoint deverá conter a pasta [Arquivos](Arquivos), que será o repositório dos outputs .csv da raspagem de dados. Os arquivos deverão estar extraídos (no formato .csv), o formato zip dos arquivos da pasta foi escolhido apenas para reduzir o consumo de espaço do repositório. A pasta Arquivos neste repositório do GitHub muito provavelmente estará desatualizada em relação aos arquivos .csv de datas mais recentes. Os dados do repositório arquivo serão atualizados sob demanda.
+O diretório sincronizado com o SharePoint deverá conter a pasta [Arquivos](Arquivos), que será o repositório dos outputs .csv da raspagem de dados. Os arquivos deverão estar extraídos (no formato .csv), o formato zip dos arquivos da pasta foi escolhido apenas para reduzir o consumo de espaço do repositório. A pasta Arquivos neste repositório do GitHub muito provavelmente estará desatualizada em relação aos arquivos .csv de datas mais recentes. Os arquivos .csv mais recentes podem ser obtidos por meio deste [link](https://www.dropbox.com/scl/fo/f1unxkrpy8wqh19wm9fbf/ADeOmtksP50NWqRu9T4Gvgs?rlkey=1owwc01plrlycnjgcdxew1bn2&st=fcerw9pp&dl=0).
 
 No mesmo diretório sincronizado, deverá ser copiada a pasta [Parametros](Parametros). Essa pasta contém arquivos para os atributos básicos e inalteráveis do cubo tabular (imagens das bandeiras, siglas dos Estados, número mínimo de apoiamentos por estado, estimativa da validação realizada pelo Aliança, dias não úteis, etc). Essa pasta de parâmetros precisará ser importada uma única vez no modelo tabular, podendo ser desativada a opção de "Incluir na atualização do relatório".
 
