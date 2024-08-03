@@ -1,0 +1,5 @@
+pip install python-dotenv
+pip install APScheduler
+pip install selenium
+pip install tweepy
+pip install pillow
