@@ -8,7 +8,7 @@ Os apoiamentos validados podem ser obtidos através do site oficial: [Partidos e
 
 A coleta de dados do site do TSE é realizada em Python, utilizando a biblioteca Selenium. O arquivo .csv resultante dessa coleta é salvo em um diretório sincronizado com o SharePoint, um repositório colaborativo semelhante ao OneDrive da Microsoft. O relatório final é gerado em um cubo de dados tabular no Power BI, utilizando a solução gratuita de publicação na web. A fonte de dados do modelo tabular é o repositório SharePoint mencionado.
 
-A publicação no Twitter é realizada por meio de um script em Python, utilizando a biblioteca Tweepy. Outras bibliotecas comuns também foram empregadas para maior conveniência, e todas as bibliotecas utilizadas podem ser encontradas no arquivo [Modulos.txt](Modulos.txt). Os dados incluídos nos tweets são obtidos por meio de consultas DAX no modelo tabular, utilizando a REST API do Power BI.
+A publicação no Twitter é realizada por meio de um script em Python, utilizando a biblioteca Tweepy. Outras bibliotecas comuns também foram empregadas para maior conveniência, e todas as bibliotecas utilizadas podem ser encontradas no arquivo [Modulos.txt](Modulos.txt). Os dados incluídos nos tweets são obtidos por consultas DAX no modelo tabular, utilizando a REST API do Power BI.
 
 ## Conhecimentos Necessários
 
@@ -59,4 +59,4 @@ No .pbit deste repositório, as pastas de "Arquivos" e "Parâmetros" estão loca
 
 Caso você utilize o print do resumo no tweet, deverá existir um relatório Power BI público na web que será a fonte do screenshot. O relatório usado para o resumo está no arquivo [Imagem.pbit](Imagem.pbit). Também será necessário alterar o script [ImageMatriz.py](ImageMatriz.py), substituindo o link e configurando as dimensões do screenshot.
 
-O relatório público em Power BI, obtido com este projeto, pode ser acessado através deste link: [link](https://app.powerbi.com/view?r=eyJrIjoiMmVkZjM0ODEtNjkyMi00NjliLTlkYTgtNDE3ODg0ZTE1NDhlIiwidCI6ImFkY2JiMThhLWE3NzEtNDU5OS04YjllLWFiM2IzNmE3NWY1MSJ9).
+O relatório público em Power BI, obtido com este projeto, pode ser acessado através deste [link](https://app.powerbi.com/view?r=eyJrIjoiMmVkZjM0ODEtNjkyMi00NjliLTlkYTgtNDE3ODg0ZTE1NDhlIiwidCI6ImFkY2JiMThhLWE3NzEtNDU5OS04YjllLWFiM2IzNmE3NWY1MSJ9).
