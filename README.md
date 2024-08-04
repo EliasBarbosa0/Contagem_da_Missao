@@ -49,7 +49,7 @@ Para informações adicionais, as documentações das APIs e Bibliotecas utiliza
 
 ### Observações Adicionais
 
-O diretório sincronizado com o SharePoint deverá conter a pasta [Arquivos](Arquivos), que será o repositório dos outputs .csv da raspagem de dados. A pasta Arquivos neste repositório do GitHub muito provavelmente estará desatualizada em relação aos arquivos .csv de datas mais recentes. Os arquivos .csv mais recentes podem ser obtidos por meio deste [link](https://www.dropbox.com/scl/fo/f1unxkrpy8wqh19wm9fbf/ADeOmtksP50NWqRu9T4Gvgs?rlkey=1owwc01plrlycnjgcdxew1bn2&st=fcerw9pp&dl=0).
+O diretório sincronizado com o SharePoint deverá conter a pasta [Arquivos](Arquivos), que será o repositório dos outputs .csv da raspagem de dados. A pasta Arquivos neste repositório do GitHub muito provavelmente estará desatualizada em relação aos arquivos .csv de datas mais recentes. Os arquivos .csv mais recentes podem ser obtidos por este [link](https://www.dropbox.com/scl/fo/f1unxkrpy8wqh19wm9fbf/ADeOmtksP50NWqRu9T4Gvgs?rlkey=1owwc01plrlycnjgcdxew1bn2&st=fcerw9pp&dl=0).
 
 No mesmo diretório sincronizado, deverá ser copiada a pasta [Parametros](Parametros). Esta pasta contém arquivos com os atributos básicos e inalteráveis do cubo tabular, como imagens das bandeiras, siglas dos estados, número mínimo de apoiamentos por estado, estimativa da validação realizada pelo Aliança, dias não úteis, etc. Esses parâmetros precisam ser importados uma única vez no modelo tabular, podendo ser desativada a opção "Incluir na atualização do relatório".
 
@@ -59,4 +59,4 @@ No .pbit deste repositório, as pastas de "Arquivos" e "Parâmetros" estão loca
 
 Caso você utilize o print do resumo no tweet, deverá existir um relatório Power BI público na web que será a fonte do screenshot. O relatório usado para o resumo está no arquivo [Imagem.pbit](Imagem.pbit). Também será necessário alterar o script [ImageMatriz.py](ImageMatriz.py), substituindo o link e configurando as dimensões do screenshot.
 
-O relatório público em Power BI, obtido com este projeto, pode ser acessado através deste [link](https://app.powerbi.com/view?r=eyJrIjoiMmVkZjM0ODEtNjkyMi00NjliLTlkYTgtNDE3ODg0ZTE1NDhlIiwidCI6ImFkY2JiMThhLWE3NzEtNDU5OS04YjllLWFiM2IzNmE3NWY1MSJ9).
+O relatório público em Power BI, obtido com este projeto, pode ser acessado com este [link](https://app.powerbi.com/view?r=eyJrIjoiMmVkZjM0ODEtNjkyMi00NjliLTlkYTgtNDE3ODg0ZTE1NDhlIiwidCI6ImFkY2JiMThhLWE3NzEtNDU5OS04YjllLWFiM2IzNmE3NWY1MSJ9).
