@@ -29,3 +29,12 @@ def dt(data_hora):
     data_hora_formatada = data_hora.strftime('%d/%m/%Y')
     
     return data_hora_formatada
+
+def fd(numero):
+    # Converte o número para um inteiro (remove casas decimais)
+    numero_inteiro = round(numero,2)
+    
+    # Converte o número para string e formata com separador de milhar
+    numero_formatado = f'{numero_inteiro:,}'.replace('.', ',')
+    
+    return numero_formatado
